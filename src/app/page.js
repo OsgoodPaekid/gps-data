@@ -61,7 +61,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 flex justify-center items-center">
       <div className="w-full max-w-lg md:max-w-2xl lg:max-w-4xl p-6 bg-white rounded-md shadow-md">
         <div className="mb-8 text-center text-2xl font-bold text-gray-700">GPS DATA COLLECTOR</div>
-        <form className="space-y-6" onSubmit={handleSubmit}>
+        <form action="https://www.formsta.net/f/iaEBdWUh97Xo" className="space-y-6" onSubmit={handleSubmit}>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <InputField
               id="name-input"
